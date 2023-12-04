@@ -9,7 +9,7 @@ export function mostrarResultado(mensaje){
 }
 
 const vehiculo1 = new Vehiculo("BMW","CLK","Rojo", 1992, "2400")
-mostrarResultado(`--------------------Vehiculo--------------------`);
+mostrarResultado(`--------------------Vehiculo-----------------------------------------`);
 vehiculo1.mostrarDatos();
 vehiculo1.arrancar();
 vehiculo1.acelerar(140);
