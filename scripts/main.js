@@ -8,7 +8,6 @@ export function mostrarResultado(mensaje){
     contenedorResultado.innerHTML += (`<p>${mensaje}</p>`);
 }
 
-
 const vehiculo1 = new Vehiculo("BMW","CLK","Rojo", 1992, "2400")
 mostrarResultado(`--------------------Vehiculo--------------------`);
 vehiculo1.mostrarDatos();
@@ -47,9 +46,11 @@ const deportivoObject ={
     potenciamotor: '500'
 }
 
-localStorage.getItem("automovildeportivo", JSON.stringify(deportivoObject));
-
-localStorage.removeItem(automovildeportivo1.marca);
+localStorage.setItem("automovildeportivo", JSON.stringify(deportivoObject));
+console.log(localStorage.getItem("automovildeportivo"));
 
 localStorage.removeItem('color');
 
+/*
+localStorage.clear();
+*/
