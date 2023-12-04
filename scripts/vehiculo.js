@@ -83,4 +83,3 @@ export class Vehiculo{
         this.#cilindrada = cilindrada
     }
 }
-
