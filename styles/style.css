@@ -10,6 +10,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
 h1{
@@ -26,6 +27,7 @@ span{
     font-size: 2rem;
     position: absolute;
     margin-left: 22%;
+    overflow: hidden;
 }
 
 #MiVehiculo{
@@ -33,7 +35,7 @@ span{
     height: 230px;
     background-image: url(../assets/m2-competition.jpg);
     background-size: cover;
-    animation: moverImagen 5s linear infinite
+    animation: moverImagen 4s linear infinite;
 }
 
 .borde{
@@ -43,7 +45,7 @@ span{
 
 .ola{
     color:brown;
-    animation: 3s ease-in-out infinite;
+    animation: ola 3s ease-in-out infinite;
 }
 
 
@@ -52,7 +54,7 @@ span{
         transform: translateX(-100);
     }
     to{
-        transform: translateX(1000%);
+        transform: translateX(400%);
     }
 }
 
@@ -66,4 +68,15 @@ span{
     50% {
         clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
     }
+}
+
+/*Escribir h2*/
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink{
+    50%{border-color: transparent}
 }
