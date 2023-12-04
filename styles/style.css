@@ -1,0 +1,45 @@
+@import url();
+
+p{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    position: absolute;
+    font-size: 75px;
+    margin-left: 22%;
+
+}
+
+span{
+    color:black;
+    font-style: italic;
+    font-size: 2rem;
+    position: absolute;
+    margin-left: 23%;
+}
+
+#MiVehiculo{
+    width: 250px;
+    height: 250px;
+    background-image: url();
+    background-size: cover;
+    animation: MoverImagen 5s linear infinite
+}
+
+.borde{
+    color:brown;
+    text-shadow: none;
+}
+
+.ola{
+    color:brown;
+    animation: 3s ease-in-out infinite;
+}

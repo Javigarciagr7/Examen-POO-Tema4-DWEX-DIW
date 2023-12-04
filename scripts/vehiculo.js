@@ -29,22 +29,22 @@ export class Vehiculo{
         <br>
         Su cilindrada es de -> ${this.#cilindrada}
         `
-        mostrarResultados(`<p>${datos}<p/>`);
+        mostrarResultado(`<p>${datos}<p/>`);
     }
 
     acelerar(velocidad){
         const mensaje = `El coche ha acelerado hasta la velocidad: ${velocidad}`;
-        mostrarResultados(`<p>${mensaje}<p/>`);
+        mostrarResultado(`<p>${mensaje}</p>`);
     }
 
     arrancar(){
         const mensaje = `El coche de marca ${this.#marca} y color ${this.#color} ha arrancado`;
-        mostrarResultados(`<p>${mensaje}<p/>`);
+        mostrarResultado(`<p>${mensaje}</p>`);
     }
 
     frenar(){
         const mensaje = `El coche de marca ${this.#marca} y color ${this.#color} ha frenado`;
-        mostrarResultados(`<p>${mensaje}<p/>`);
+        mostrarResultado(`<p>${mensaje}</p>`);
     }
 
 
